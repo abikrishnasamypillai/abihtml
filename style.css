@@ -1,0 +1,143 @@
+/*styling entire body*/
+body {
+    background-image:linear-gradient( #33A1C9, white);
+    font-family: 'roboto';
+}
+/*styling h1 of 1st article*/
+#abi h1 {
+    font-size: 36px;
+    color:maroon;
+    font-family: 'roboto';
+    border-width:1px 5px 2px 3px;
+    border: solid blanchedalmond ;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+/* styling all h2 of 1st article*/
+#abi h2 {
+    font-size: 24px;
+    color: maroon;
+    border-width:4px 2px 4px;
+    border: solid blanchedalmond ;
+     
+}
+/*styling picture in 1st article*/
+.picture {
+     width: 40%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+/* styling h1 of 2nd article*/
+#kaaviya h1 {
+    border: solid blueviolet 2px;
+    text-align: center;
+    padding: 10px;
+}
+/* styling h2 of 2nd article*/
+#kaaviya h2 {
+    border-bottom: solid blueviolet 5px;
+}
+/*styling the table*/
+table {
+    width: 80%;
+    height: 400px;
+    background-image:linear-gradient(#33A1C9,white) ;
+}
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;     
+}
+/*styling entire form*/
+#form {
+    border: solid 2px black;
+    padding: 15px;
+}
+/*styling 1st element in article 3*/
+div.sim1 {
+    float: left;
+    width: 49%;
+}
+/*styling 2nd element in article 3*/
+div.sim2 {
+    float: right;
+    width: 49%;
+    background-image:linear-gradient(#33A1C9,white) ;
+}
+/*styling text-box in form from article 3*/
+.box {
+    padding: 5px;   
+    background-color: azure;
+}
+/*styling the label and inputtype*/
+label,input {
+    display: inline-block;
+}
+/*styling the label*/
+label {
+    width:40%;
+    text-align: center;
+}
+/*styling submit button on form from article 3*/
+.submit {
+    padding: 5px;
+    width: 110px;
+    background-color: azure;
+}
+/*styling div from section-1*/
+#one #box1 {
+    border: solid 2px black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    border-radius: 5px; 
+    background-image: url("../images/pexels-photo-458976.jpeg");
+    background-size: cover;
+    
+
+}
+#one #box2 {
+    border: solid 2px black;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    border-radius: 30px; 
+    background-image: url("../images/pexels-photo-458976.jpeg");
+    background-size:cover;
+}
+#one #box3 {
+    border:solid 2px black;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin-left: 280px;
+margin-top: 40px;  
+border-radius: 20px; 
+background-image: url("../images/pexels-photo-458976.jpeg");
+    background-size:cover;  
+}
+#one #box4 {
+    border:solid 2px black;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin-left: 560px;
+    margin-top: 40px; 
+    border-radius: 15px; 
+    background-image: url("../images/pexels-photo-458976.jpeg");
+    background-size:cover;  
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #box1 {
+        background-color: antiquewhite;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    #box1 {
+        background-color: aqua;
+    }
+ }
